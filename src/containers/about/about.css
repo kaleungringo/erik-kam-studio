@@ -1,0 +1,125 @@
+.kam__info-container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.kam__info-container-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kam__info-container-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kam__info-item {
+    padding: 0 1rem 0 1rem;
+}
+
+@media screen and (max-width: 843px) {
+    .kam__info-container-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .kam__info-item {
+        padding: 0.2rem 1rem 0.2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .kam__info-container-upper {
+        flex-direction: column;
+    }
+    
+    .kam__info-container-lower {
+        flex-direction: column;
+    }
+    .kam__info-item {
+        padding: 0.1rem 1rem 0.1rem 1rem;
+    }
+}
+
+.kam__info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kam__about-social-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.kam__about-social-container p{
+    padding: 0 0.7rem 0 0.7rem;
+}
+
+.kam__hours-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.kam__hours-title {
+    align-content: center;
+    padding: 0.5rem;
+}
+
+.kam__hours-row-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.kam__hours-day-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 7);
+    flex-shrink: 1;
+}
+
+.kam__hours-day {
+    font-size: 12pt;
+}
+
+.kam__hours-time {
+    font-size: 10pt;
+}
+
+@media screen and (max-width: 650px) {
+    .kam__hours-title {
+        font-size: 12pt;
+        padding: 0.1rem;
+    }
+    .kam__hours-row-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kam__hours-day-container {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+    .kam__hours-day {
+        font-size: 12pt;
+        width: 4rem;
+    }
+    .kam__hours-time {
+        font-size: 10pt;
+    }
+}
