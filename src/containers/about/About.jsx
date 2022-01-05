@@ -6,19 +6,21 @@ import Social from '../../components/social/Social';
 const About = () => {
     return (
         <div>
-            <div className='kam__about-portrait'>
-                <img src='https://source.unsplash.com/Dm-qxdynoEc/800x799'></img>
+            <div className='kam__about-container'>
+                    <img className='kam__about-portrait' src='https://drive.google.com/uc?export=download&id=1bI7sgshqwlG5Qvvf1JdU-N4dtBSleG39'></img>
+
+                <div className='kam__about-description'>
+                    <h1>畫室創辦人</h1>
+                    <h2>開辦畫室是希望讓更加多的人接觸及認識繪畫藝術，並享受繪畫。</h2>
+                    <p>香港畫家Erik Kam</p>
+                    <p>師承華人著名畫家鄧亦農</p>
+                    <p>香港美術會會員</p>
+                    <p>香港粉彩畫會會員</p>
+                    <p>多年藝術創作及教育經驗</p>
+                    <p>作品曾被私營機構及海外人士收藏</p>
+                </div>
             </div>
-            <div>
-            <h1>畫室創辦人</h1>
-            <h2>開辦畫室是希望讓更加多的人接觸及認識繪畫藝術，並享受繪畫。</h2>
-            <p>香港畫家Erik Kam</p>
-            <p>師承華人著名畫家鄧亦農</p>
-            <p>香港美術會會員</p>
-            <p>香港粉彩畫會會員</p>
-            <p>多年藝術創作及教育經驗</p>
-            <p>作品曾被私營機構及海外人士收藏</p>
-            </div>
+
 
 
             <div className='kam__hours-container'>
@@ -69,6 +71,8 @@ const About = () => {
             <div className='kam__about-social-container'>
                 <Social />
             </div>
+
+            <div>Google Map to be coded</div>
 
         </div>
 

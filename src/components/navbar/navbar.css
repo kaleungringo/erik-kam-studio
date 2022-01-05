@@ -1,5 +1,5 @@
 .kam__navbar {
-    background: rgb(240, 240, 240);
+    background: #eeeeee;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
@@ -92,6 +92,7 @@ a:active {
     position:fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 .kam__navbar-menu_container {

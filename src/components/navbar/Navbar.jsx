@@ -9,7 +9,7 @@ import Social from '../social/Social';
 const Menu = () => { 
     return(
     <>
-    <p><Link to = '/'>主頁</Link></p>
+    {/*<p><Link to = '/'>主頁</Link></p>*/}
     <p><Link to = '/about'>導師簡介</Link></p>
     <p><Link to = '/features'>畫室特色</Link></p>
     <p><Link to = '/goals'>辦學宗旨</Link></p>

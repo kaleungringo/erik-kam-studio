@@ -1,3 +1,77 @@
+.kam__about-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -1rem;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+
+}
+
+.kam__about-portrait img{
+    width: 100%;
+}
+
+.kam__about-description {
+    width: 55%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-top: 3%;
+    margin-left: 3%;
+    
+    padding: 18px;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.kam__about-description p{
+    margin: 0;
+}
+
+.kam__about-description h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kam__about-description h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.kam__about-portrait {
+    margin: 0;
+    position: relative;
+}
+
+@media screen and (max-width: 550px) {
+    .kam__about-description {
+        width: 90%;
+    
+        position: relative;
+    
+        margin-top: 6px;
+        margin-left: 6px;
+        
+        padding: 1rem;
+    
+        background: rgb(255,255,255);
+        background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .kam__about-description h1 {
+        font-size: 16pt;
+    }
+    .kam__about-description h2 {
+        font-size: 13pt;
+    }
+}
+
 .kam__info-container-main {
     display: flex;
     flex-direction: row;
