@@ -1,0 +1,58 @@
+@import "_variables";
+
+@mixin setheight {
+  padding-top: #{$navbar-height};
+  margin-bottom: #{$footer-height};
+  min-height: #{$container-height};
+}
+
+.container__content-regular {
+  @include setheight();
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+
+    @media screen and (max-width: $breakpoint-menu) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+        
+    @media screen and (max-width: $breakpoint-tablet) {
+    }
+        
+    @media screen and (max-width: $breakpoint-mobile) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+}
+
+.container__content-full {
+  @include setheight();
+  margin: 0;
+}
+
+.container__content-full-fixedHeight {
+  @include setheight();
+  margin: 0;
+  height: $container-height;
+  min-width: 100vw;
+}
+
+.container__content-full-fixedHeight-flexiHeightmobile {
+  @include setheight();
+  margin: 0;
+  height: $container-height;
+  min-width: 100vw;
+
+  @media screen and (max-width: $breakpoint-menu) {
+    height: 100%;
+  }
+
+}
+
+.container-nopadding {
+  padding: #{$navbar-height} 0 0 0;
+}
+
+.hidden {
+  display: none;
+}
