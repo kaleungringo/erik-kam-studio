@@ -1,0 +1,242 @@
+@import "../../_container";
+@import "../../_variables";
+
+.hidden {
+  display: none;
+}
+
+.course {
+  
+  color: $slateGray-4;
+
+  #{&}__title {
+    padding: 0 0 0 18px;
+  }
+
+  #{&}__container {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    position: relative;
+
+    padding: 6px 5px 20px 5px;
+
+      @media screen and (max-width: $breakpoint-menu) {
+        padding: 6px 0px 18px 10px;        
+      }
+
+  }
+
+  #{&}__container::-webkit-scrollbar {
+    width: 0;
+}
+
+  h3 {
+      margin-bottom: 12px;
+      padding-left: 12px;
+      font-size: 28px;
+  }
+
+  #{&}__name {
+      font-size: 20px;
+      text-align: center;
+      padding: 0 0 22px 0;
+      margin: 12px 0 0 0;
+      
+      border-bottom: 1px solid;
+  }
+
+  #{&}__item {
+    position: relative;
+    min-width: 200px;
+    height: auto;
+
+    padding: 10px;
+    margin: 0 14px 0 20px;
+    background-color: $steelBlue-1;
+
+    box-shadow: 7px 7px 9px 4px #3952632d;
+    box-sizing: border-box;
+    
+    flex: 1 0;
+
+    border-radius: 12px;
+
+    color: $slateGray-3;
+}
+
+  #{&}__subname {
+    position: absolute;
+    width: calc(100% - 20px);
+    font-size: 9pt;
+    text-align: center;
+    transform: translateY(-22px);
+}
+
+  #{&}__des {
+    margin: 10px 0 8px 0;
+    @media screen and (max-width: 800px) {
+      font-size: 11.2pt;
+    }
+}
+
+  #{&}__price {
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 4px 0;
+}
+
+  #{&}__dotsnav {
+    text-align: center;
+    display: none;
+}
+
+  #{&}__remarks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  font-size: 12pt;
+}
+
+  #{&}__single {
+    text-align: left;
+    font-size: 18px;
+    display: inline;
+}
+
+}
+
+.course-general {
+
+  .course__des {
+    min-height: 100px;
+    border-bottom: 1px solid;
+}
+}
+
+.course-youth {
+  .course__des {
+    min-height: 120px;
+    border-bottom: 1px solid;
+  }
+  
+  .course__price {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #course__grade__price {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 2px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 11pt;
+
+    li:nth-child(3n) {
+      justify-self: end; //aligning the price to the left
+    }
+
+    @media screen and (max-width: 800px) {
+      font-size: 9pt;
+    }
+
+}
+}
+
+.course-anime {
+
+  div {
+    display: flex;
+    max-width: 100%;
+    padding: 0 36px 0 0;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    div {
+      flex-direction: column;
+      max-width: 100%;
+    }
+  
+    img {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    div {
+      flex-direction: column;
+      max-width: 100%;
+      padding: 0;
+    }
+  
+    img {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+}
+
+.course__policy {
+  display: flex;
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    flex-direction: column;
+  }
+
+  strong {
+    margin-bottom: 12px;
+    padding-left: -1px;
+    font-size: 28px;
+    display: block;
+  }
+
+  #{&}__item {
+    position: relative;
+    min-width: 200px;
+    height: auto;
+
+    padding: 28px;
+    margin: 20px;
+    background-color: $steelBlue-1;
+
+    box-shadow: 7px 7px 9px 4px #3952632d;
+    box-sizing: border-box;
+    
+    flex: 1 0;
+
+    border-radius: 12px;
+
+    color: $slateGray-3;
+  }
+
+  b {
+    font-size: 14pt;
+    padding: 12px 0 12px 0;
+  }
+
+  p {
+    margin: 8px 0 8px 0;
+    padding: 2px 0 10px 0;
+  }
+
+}

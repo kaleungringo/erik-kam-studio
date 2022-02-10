@@ -10,11 +10,19 @@ const Menu = () => {
     return(
     <>
     {/*<p><Link to = '/'>主頁</Link></p>*/}
-    <p><Link to = '/about'>導師簡介</Link></p>
-    <p><Link to = '/features'>畫室特色</Link></p>
-    <p><Link to = '/goals'>辦學宗旨</Link></p>
-    <p><Link to = '/studentworks'>學生作品</Link></p>
-    <p><a href="http://wa.me/+85297912938" target="_blank" >聯絡我們</a></p>
+    <nav className='navbar__links'>
+        <ul>
+            <li><Link to = '/about'>導師簡介</Link></li>
+            <li><Link to = '/features'>畫室特色</Link></li>
+            <li><Link to = '/goals'>辦學宗旨</Link></li>
+            <li><Link to = '/courses'>課程介紹</Link></li>
+            <li><Link to = '/tailor'>繪畫定製</Link></li>
+            <li><Link to = '/teacherworks'>導師作品</Link></li>
+            <li><Link to = '/studentworks'>學生作品</Link></li>
+            <li><Link to = '/contact'>聯絡我們</Link></li>
+        </ul>
+    </nav>
+
     </>)
 }
 
@@ -22,32 +30,26 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false); // useState hook, 1. using menu, 2. function changing the variable
 
     return (
-    <div className='kam__navbar'>
-    <div className='kam__navbar-container'>
-        <div className='kam__navbar-logo'>
-            <img src= {logo} />
+    <div className='navbar'>
+    <div className='navbar__container'>
+        <div className='navbar__logo'>
+            <Link to = '/'><img src= {logo} /></Link>
         </div>
-        <div className='kam__navbar-links'>
-            <div className='kam__navbar-links_container'>
+        <div className='navbar__bar__container'>
                 <Menu />
-            </div>
-            <div className='kam__navbar-social'>
                 <Social />
-            </div>
         </div>
-        <div className='kam__navbar-menu'>
+        <div className='navbar__menu'>
         {toggleMenu
           ? <></> //<RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />}
         </div>
         {toggleMenu && (
-        <div className="kam__navbar-menu_overlay scale-up-center" onClick={() => setToggleMenu(false)} >
-            <div className="kam__navbar-menu_container">
+        <div className="navbar__menu__overlay scale-up-center" onClick={() => setToggleMenu(false)} >
+            <div className="navbar__menu__container">
                 <Menu />
-                <div className='kam__navbar-menu_social'>
-                    <Social />
-                </div>
-            <p><RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} /></p>
+                <Social />
+                <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
             </div>
         </div>
         )}

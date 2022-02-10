@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,UAAU,EAAE,KAAK;CAClB",
+    "sources": [
+        "studentworks.scss"
+    ],
+    "names": [],
+    "file": "studentworks.css"
+}

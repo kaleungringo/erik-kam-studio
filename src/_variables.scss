@@ -1,0 +1,32 @@
+// Break point
+$breakpoint-menu: 1050px;
+$breakpoint-tablet: 700px;
+$breakpoint-mobile: 550px;
+
+//layout
+$navbar-height: 80px;
+$footer-height: 70px;
+$container-height: calc(100vh - #{$navbar-height} - #{$footer-height} );
+$container-height-nofooter: calc(100vh - #{$navbar-height} );
+
+// Color Scheme
+$steelBlue-1: #ECEDED;
+$steelBlue-2: #C9D1D8;
+$steelBlue-3: #B1BECD;
+$slateGray-1: #9CA4A4;
+$slateGray-2: #717D84;
+$slateGray-3: #424a4e;
+$slateGray-3: #2b3033;
+$slateGray-4: #202325;
+
+$pastelBlue: #b8d8f3;
+
+$bg-color: #ffffff;
+$link-color: #a4a29e;
+$color-1:#d79922; 
+$color-2: #efe2ba; 
+$color-3: #f13c20;
+$color-4: #4056a1;
+$color-5: #c5cbe3;
+
+
