@@ -12,7 +12,7 @@ const Courses = () => {
                 <h3>兒童課程</h3>
             </div>
             <div className='course__container'>
-                <div className='course__item'>
+                <div className='course__item vibrant-2'>
                         <h4 className='course__name'>
 兒童綜合繪畫
                         </h4>
@@ -27,7 +27,7 @@ $470/4堂
 1小時/堂
                         </p>
                 </div>
-                <div className='course__item'>
+                <div className='course__item vibrant-5'>
                         <h4 className='course__name'>
 興趣繪畫班
                         </h4>
@@ -41,7 +41,7 @@ $540/4堂
 1.5小時/堂
                         </p>
                 </div>
-                <div className='course__item'>
+                <div className='course__item vibrant-3'>
                         <h4 className='course__name'>
 兒童創意塑膠彩班
                         </h4>
@@ -56,7 +56,7 @@ $600/4堂
 1.5小時/堂
                         </p>
                 </div>
-                <div className='course__item'>
+                <div className='course__item vibrant-4'>
                         <h4 className='course__name'>
 兒童卡通漫畫班
                         </h4>
@@ -88,7 +88,7 @@ $540/4堂
             </div>
             
             <div className='course__container'>
-                <div className='course__item'>
+                <div className='course__item vibrant-3'> 
                         <h4 className='course__name'>
                         青少年綜合繪畫班
                         </h4>
@@ -104,7 +104,7 @@ $540/4堂
 1.5小時/堂
                         </p>
                 </div>
-                <div className='course__item'>
+                <div className='course__item vibrant-1'>
                         <h4 className='course__name'>
                         全國美術級考試
                         </h4>
@@ -124,7 +124,7 @@ $540/4堂
 
                         </p>
                 </div>
-                <div className='course__item'>
+                <div className='course__item vibrant-5'>
                         <h4 className='course__name'>
                         中學文憑試
                         </h4>
@@ -153,7 +153,7 @@ $740/4堂
                 <h3>成人課程</h3>
             </div>
             <div className='course__container'>
-                <div className='course__item'>
+                <div className='course__item vibrant-4'>
                     <h4 className='course__name'>
 成人藝術繪畫課程
 </h4>
@@ -169,7 +169,7 @@ $740/4堂
 2小時/堂
                     </p>
                 </div>
-                <div className='course__item'>
+                <div className='course__item vibrant-2'>
                     <h4 className='course__name'>
 短期禮物班
                     </h4>
@@ -187,7 +187,7 @@ $740/4堂
 
 
                 </div>
-                <div className='course__item'>
+                <div className='course__item vibrant-1'>
                     <h4 className='course__name'>
 專業油畫/塑膠彩班
                     </h4>
@@ -220,12 +220,12 @@ $740/4堂
 </section>
 
 <section className='course course__policy'>
-    <div className='course__policy__item'>
+    <div className='course__policy__item vibrant-4'>
         <strong>請假及補堂之安排</strong>
             <p>所有請假必須提早向老師申請，以便老師提供適合的補堂時間予學生選擇。</p>
             <p>補堂時間為兩個月內，所報課堂為兩個月內完成。</p>
         </div>
-    <div className='course__policy__item'>
+    <div className='course__policy__item vibrant-5'>
         <strong>極端天氣安排</strong>
             <b>T1／T3／黃色暴雨</b>
             <p>課堂繼續進行</p>

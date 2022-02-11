@@ -25,6 +25,7 @@
   margin-bottom: 70px;
   min-height: calc(100vh - 80px - 70px);
   margin: 0;
+  width: 100vw;
 }
 
 .container__content-full-fixedHeight {
