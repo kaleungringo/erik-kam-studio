@@ -4,6 +4,7 @@ import './about.css';
 const About = () => {
     return (
 <section className='about container__content-full-fixedHeight-flexiHeightmobile'>
+    <h1>意畫間-畫室創辦人-香港畫家Erik Kam</h1>
     <div class='about__background'>
         <img className='' src='https://ik.imagekit.io/lkringo/About/about_bg_vL7UcS9vw8.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644382194769'></img>
         <div className='about__gradient'></div>

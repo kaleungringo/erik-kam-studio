@@ -60,6 +60,13 @@
   display: none;
 }
 
+h1 {
+  visibility: hidden;
+  height: 0px;
+  padding: 0;
+  margin: 0;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,6 +256,10 @@
     -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
   }
+}
+
+.info__container address {
+  font-style: normal;
 }
 
 .contact .social li {

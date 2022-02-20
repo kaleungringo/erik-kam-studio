@@ -47,6 +47,7 @@ const data = [
   const TeacherWorks = () => {
   return (
     <div className="container__content-regular">
+      <h1>意畫間-Eirk Kam-導師作品</h1>
       <h2>導師作品</h2>
       <div className='carousal__container'>
 

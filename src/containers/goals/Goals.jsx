@@ -4,6 +4,7 @@ import './goals.css';
 const Goals = () => {
     return (
         <div className='container__content-full'>
+        <h1>意畫間-畫室-辦學的宗旨</h1>
             <div class="motto container-fullHeight">
             <div className='wrapper'>
             <div className='motto__img__container'><img src='https://ik.imagekit.io/lkringo/Goals/hero_1_goal_c2emDE9-I.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644386037522'></img></div>

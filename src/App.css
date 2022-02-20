@@ -18,6 +18,13 @@ html, body {
   color: #202325;
 }
 
+h1 {
+  visibility: hidden;
+  height: 0px;
+  padding: 0;
+  margin: 0;
+}
+
 a:link {
   color: #2b3033;
   text-decoration: none;

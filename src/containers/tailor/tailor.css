@@ -52,7 +52,7 @@
   }
 }
 
-.tailor .tailor__textbox h3 {
+.tailor .tailor__textbox h2 {
   font-size: 32px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 @media screen and (max-width: 550px) {
-  .tailor .tailor__textbox h3 {
+  .tailor .tailor__textbox h2 {
     margin-bottom: 10px;
   }
   .tailor .tailor__textbox strong {

@@ -5,11 +5,11 @@ const Courses = () => {
     return (
         <div className='container-nopadding container__content-regular'>
 
-            <h2 className='hidden'>課程簡介</h2>
+            <h1 className='hidden'>課程簡介</h1>
 
             <section className='course course-general'>
             <div className='course__title'>
-                <h3>兒童課程</h3>
+                <h2>兒童課程</h2>
             </div>
             <div className='course__container'>
                 <div className='course__item vibrant-2'>
@@ -84,7 +84,7 @@ $540/4堂
 
             <section className='course course-youth'>
             <div className='course__title'>
-                <h3>青少年課程</h3>
+                <h2>青少年課程</h2>
             </div>
             
             <div className='course__container'>
@@ -150,7 +150,7 @@ $740/4堂
 
             <section className='course course-general'>
             <div className='course__title'>
-                <h3>成人課程</h3>
+                <h2>成人課程</h2>
             </div>
             <div className='course__container'>
                 <div className='course__item vibrant-4'>
@@ -212,7 +212,7 @@ $740/4堂
             </section>
 
 <section className='course course-anime'>
-    <h3>卡通動漫班</h3>
+    <h2>卡通動漫班</h2>
     <div>
         <img src="https://ik.imagekit.io/lkringo/Courses/anime_1_GVOyb6CIp7x.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644383841187"></img>
         <img src="https://ik.imagekit.io/lkringo/Courses/anime_2_Pkdsryexf.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644383841208"></img>

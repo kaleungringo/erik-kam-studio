@@ -10,7 +10,8 @@ const Tailor = () => {
 </div>
 <div className='tailor__overlay'>
     <div className='tailor__textbox'>
-        <h3>繪畫定製</h3>
+        <h1>意畫間-Eirk Kam-繪畫定製</h1>
+        <h2>繪畫定製</h2>
         <strong>適合用作禮物，家中掛飾收藏</strong>
         <p>媒介：素描、水彩、粉彩、油畫</p>
         <p>題材：人物、動物、風景、靜物、創作</p>
