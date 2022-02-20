@@ -21,10 +21,7 @@ const App = () => {
                     <Route path="studentworks" element={ <StudentWorks />} />
                     <Route path="teacherworks" element={ <TeacherWorks />} />
                     <Route path="contact" element={ <Contact />} />
-                    <Route
-                        path="*"
-                        element={<Navigate to="/" />}
-                    />
+                    <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
                 <Footer />
         </div>
