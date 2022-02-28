@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import './teacherworks.css';
 import { Carousel } from 'react-carousel-minimal';
 
@@ -47,6 +48,17 @@ const data = [
   const TeacherWorks = () => {
   return (
     <div className="container__content-regular">
+        <Helmet>
+            <title>意畫間｜導師作品</title>
+            <meta
+                name="description"
+                content="意畫間導師的作品集。 "
+            />
+            <meta
+                name="keywords"
+                content="意畫間,Erik Kam,Erik Kam Studio,香港畫家,畫室,屯門,新墟,教育,藝術,繪畫,課程"
+            />
+        </Helmet>
       <h1>意畫間-Eirk Kam-導師作品</h1>
       <h2>導師作品</h2>
       <div className='carousal__container'>

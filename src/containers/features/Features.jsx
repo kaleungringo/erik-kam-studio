@@ -1,9 +1,26 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import './features.css';
 
 const Features = () => {
     return (
         <div className='features container__content-regular'>
+            <Helmet>
+                <title>意畫間｜畫室特色</title>
+                <meta
+                    name="description"
+                    content="
+                    位置於屯門新墟輕鐵站旁，步行只需2分鐘。畫室內外環境優美，適合不同人士學習繪畫或繪畫減壓。
+                    導師均於設計學院、教育學院或美術學院畢業或在學，均擁有文憑或學位學歷，甚至為職業畫家。專業資格能令學員更正規學習藝術繪畫。
+                    教學方針因材施教，臨摹、寫生、創作理論、技巧並重，能令學員得到各方面培訓。"
+                />
+                <meta
+                    name="keywords"
+                    content="意畫間,Erik Kam,Erik Kam Studio,香港畫家,畫室,屯門,新墟,教育,藝術,繪畫,課程"
+                />
+            </Helmet>
+
+
             <h1>畫室特色</h1>
             <p>位置於屯門新墟輕鐵站旁，步行只需2分鐘。畫室內外環境優美，適合不同人士學習繪畫或繪畫減壓。</p>
             <p>導師均於設計學院、教育學院或美術學院畢業或在學，均擁有文憑或學位學歷，甚至為職業畫家。專業資格能令學員更正規學習藝術繪畫。</p>

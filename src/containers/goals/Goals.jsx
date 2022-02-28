@@ -1,9 +1,21 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import './goals.css';
 
 const Goals = () => {
     return (
         <div className='container__content-full'>
+            <Helmet>
+                <title>意畫間｜辦學宗旨</title>
+                <meta
+                    name="description"
+                    content="意畫間辦學的宗旨：真誠的教育，是我們對你的誠諾。 "
+                />
+                <meta
+                    name="keywords"
+                    content="意畫間,Erik Kam,Erik Kam Studio,香港畫家,畫室,屯門,新墟,教育,藝術,繪畫,課程"
+                />
+            </Helmet>
         <h1>意畫間-畫室-辦學的宗旨</h1>
             <div class="motto container-fullHeight">
             <div className='wrapper'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import './contact.css';
 import { BiBus } from 'react-icons/bi';
 import { GiRailRoad } from 'react-icons/gi';
@@ -7,6 +8,21 @@ import Social from '../../components/social/Social';
 const Contact = () => {
     return (
 <section className='contact container__content-regular'>
+        <Helmet>
+            <title>意畫間|聯絡我們</title>
+            <meta
+                name="description"
+                content="意畫間 ERIK KAM'S STUDIO
+                位置於香港屯門的畫室。
+                地址：屯門良田邨62號地鋪
+                電話：(+852) 5933 4186
+                "
+            />
+            <meta
+                name="keywords"
+                content="意畫間,Erik Kam,Erik Kam Studio,香港畫家,畫室,屯門,新墟,教育,藝術,繪畫,課程"
+            />
+        </Helmet>
     <h1>意畫間-聯絡我們</h1>
     <iframe class="map"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d461.0994358816664!2d113.977844!3d22.399066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fb1898b6272f%3A0xf8b8187697330b61!2z6aaZ5riv5paw5aKf5paw56eA6KGX6Imv55Sw5p2RNjLomZ8!5e0!3m2!1szh-TW!2sca!4v1644030583897!5m2!1szh-TW!2sca" 
     style={{border:0}} 

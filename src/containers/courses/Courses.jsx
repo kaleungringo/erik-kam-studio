@@ -1,9 +1,21 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import './courses.css';
 
 const Courses = () => {
     return (
         <div className='container-nopadding container__content-regular'>
+            <Helmet>
+                <title>意畫間｜課程簡介</title>
+                <meta
+                    name="description"
+                    content="意畫間由香港畫家Erik Kam 開辦。畫室位置於屯門新墟輕鐵站旁，步行只需2分鐘。真誠的教育，是我們對你的誠諾。畫室提供不同藝術繪畫課程，以配合不同年齡及興趣，提供最合適的教育。 "
+                />
+                <meta
+                    name="keywords"
+                    content="意畫間,Erik Kam,Erik Kam Studio,香港畫家,畫室,屯門,新墟,教育,藝術,繪畫,課程"
+                />
+            </Helmet>
 
             <h1 className='hidden'>課程簡介</h1>
 

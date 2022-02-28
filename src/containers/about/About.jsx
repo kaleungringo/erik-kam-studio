@@ -1,9 +1,24 @@
 import React, { Fragment } from 'react';
+import Helmet from 'react-helmet';
 import './about.css';
 
 const About = () => {
     return (
 <section className='about container__content-full-fixedHeight-flexiHeightmobile'>
+            <Helmet>
+            <title>意畫間｜導師簡介</title>
+                <meta
+                    name="description"
+                    content="意畫間-畫室創辦人-香港畫家Erik Kam：開辦畫室是希望讓更加多的人接觸及認識繪畫藝術，並享受繪畫。
+                    香港畫家
+                    年藝術創作及教育經驗
+                    作品曾被私營機構及海外人士收藏"
+                />
+                <meta
+                    name="keywords"
+                    content="意畫間,Erik Kam,Erik Kam Studio,香港畫家,畫室,屯門,新墟,教育,藝術,繪畫,課程"
+                />
+            </Helmet>
     <h1>意畫間-畫室創辦人-香港畫家Erik Kam</h1>
     <div class='about__background'>
         <img className='' src='https://ik.imagekit.io/lkringo/About/about_bg_vL7UcS9vw8.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644382194769'></img>
