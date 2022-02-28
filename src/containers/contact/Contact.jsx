@@ -9,7 +9,7 @@ const Contact = () => {
     return (
 <section className='contact container__content-regular'>
         <Helmet>
-            <title>意畫間|聯絡我們</title>
+            <title>意畫間 | 聯絡我們</title>
             <meta
                 name="description"
                 content="意畫間 ERIK KAM'S STUDIO

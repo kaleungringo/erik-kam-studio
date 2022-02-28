@@ -6,7 +6,7 @@ const Features = () => {
     return (
         <div className='features container__content-regular'>
             <Helmet>
-                <title>意畫間｜畫室特色</title>
+                <title>意畫間 | 畫室特色</title>
                 <meta
                     name="description"
                     content="

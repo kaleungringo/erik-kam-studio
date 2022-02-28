@@ -6,7 +6,7 @@ const About = () => {
     return (
 <section className='about container__content-full-fixedHeight-flexiHeightmobile'>
             <Helmet>
-            <title>意畫間｜導師簡介</title>
+            <title>意畫間 | 導師簡介</title>
                 <meta
                     name="description"
                     content="意畫間-畫室創辦人-香港畫家Erik Kam：開辦畫室是希望讓更加多的人接觸及認識繪畫藝術，並享受繪畫。

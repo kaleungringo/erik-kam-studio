@@ -49,7 +49,7 @@ const data = [
   return (
     <div className="container__content-regular">
         <Helmet>
-            <title>意畫間｜導師作品</title>
+            <title>意畫間 | 導師作品</title>
             <meta
                 name="description"
                 content="意畫間導師的作品集。 "

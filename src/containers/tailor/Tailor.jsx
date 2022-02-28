@@ -7,7 +7,7 @@ const Tailor = () => {
     return (
 <section className='tailor container__content-full-fixedHeight'>
     <Helmet>
-        <title>意畫間｜繪畫定製</title>
+        <title>意畫間 | 繪畫定製</title>
         <meta
             name="description"
             content="意畫間提供繪畫定製服務，提供不周類型客製化作品。 "

@@ -6,7 +6,7 @@ const Goals = () => {
     return (
         <div className='container__content-full'>
             <Helmet>
-                <title>意畫間｜辦學宗旨</title>
+                <title>意畫間 | 辦學宗旨</title>
                 <meta
                     name="description"
                     content="意畫間辦學的宗旨：真誠的教育，是我們對你的誠諾。 "

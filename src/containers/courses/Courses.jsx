@@ -6,7 +6,7 @@ const Courses = () => {
     return (
         <div className='container-nopadding container__content-regular'>
             <Helmet>
-                <title>意畫間｜課程簡介</title>
+                <title>意畫間 | 課程簡介</title>
                 <meta
                     name="description"
                     content="意畫間由香港畫家Erik Kam 開辦。畫室位置於屯門新墟輕鐵站旁，步行只需2分鐘。真誠的教育，是我們對你的誠諾。畫室提供不同藝術繪畫課程，以配合不同年齡及興趣，提供最合適的教育。 "

@@ -47,7 +47,7 @@ const data = [
   return (
     <div className="container__content-regular">
         <Helmet>
-            <title>意畫間｜學生作品</title>
+            <title>意畫間 | 學生作品</title>
             <meta
                 name="description"
                 content="意畫間學生的作品集。 "
