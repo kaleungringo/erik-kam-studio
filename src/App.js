@@ -11,7 +11,7 @@ const App = () => {
         <Router>
         <div className="App">
             <Helmet>
-                <title>意畫間</title>
+                <title>意畫間 | Erik Kam's Studio</title>
                 <meta
                     name="description"
                     content="意畫間由香港畫家Erik Kam 開辦。畫室位置於屯門新墟輕鐵站旁，步行只需2分鐘。真誠的教育，是我們對你的誠諾。畫室提供不同藝術繪畫課程，以配合不同年齡及興趣，提供最合適的教育。 "

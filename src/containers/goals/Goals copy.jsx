@@ -5,6 +5,17 @@ import { hero_1_goal, hero_2_child, hero_3_teen, hero_4_adult } from '../../asse
 const Goals = () => {
     return (
         <div className='container__content-full'>
+            <Helmet>
+                <title>意畫間 | Erik Kam's Studio</title>
+                <meta
+                    name="description"
+                    content="意畫間由香港畫家Erik Kam 開辦。畫室位置於屯門新墟輕鐵站旁，步行只需2分鐘。真誠的教育，是我們對你的誠諾。畫室提供不同藝術繪畫課程，以配合不同年齡及興趣，提供最合適的教育。 "
+                />
+                <meta
+                    name="keywords"
+                    content="意畫間,Erik Kam,Erik Kam Studio,香港畫家,畫室,屯門,新墟,教育,藝術,繪畫,課程"
+                />
+            </Helmet>
             <div class="motto container-fullHeight">
             <div className='wrapper'>
             <div className='motto__img__container'><img src='https://drive.google.com/uc?export=view&id=1VeLtuUa86xQqaE7HLlPgYzlMcbRXlmCR'></img></div>
