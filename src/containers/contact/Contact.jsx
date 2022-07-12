@@ -40,7 +40,7 @@ const Contact = () => {
         <h3>營業時間</h3>
         <div className='hours__row'>
             <ul>
-            <li>Mon</li><li>10:00 to 21:00</li>
+            <li>Mon</li><li>休息</li>
             <li>Tue</li><li>10:00 to 21:00</li>
             <li>Wed</li><li>10:00 to 21:00</li>
             <li>Thur</li><li>10:00 to 21:00</li>

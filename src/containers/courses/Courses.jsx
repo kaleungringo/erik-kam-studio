@@ -223,14 +223,6 @@ $740/4堂
 
             </section>
 
-<section className='course course-anime'>
-    <h2>卡通動漫班</h2>
-    <div>
-        <img src="https://ik.imagekit.io/lkringo/Courses/anime_1_GVOyb6CIp7x.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644383841187"></img>
-        <img src="https://ik.imagekit.io/lkringo/Courses/anime_2_Pkdsryexf.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644383841208"></img>
-    </div>
-</section>
-
 <section className='course course__policy'>
     <div className='course__policy__item vibrant-4'>
         <strong>請假及補堂之安排</strong>
