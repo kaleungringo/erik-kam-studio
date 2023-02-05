@@ -1,8 +1,65 @@
 @import "../../_container";
 @import "../../_variables";
 
+#container-course {
+  padding-top: 0;
+}
+
 .hidden {
   display: none;
+}
+
+.promotion {
+  margin-top: 80px;
+  padding: 12px 12px 12px 12px;
+  text-align: center;
+  background: $banner;
+  color: white;
+  font-size: 16pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 24px;
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    font-size: 12pt;
+    padding: 8px 8px 8px 8px;
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    font-size: 10pt;
+    flex-direction: column;
+  }
+
+}
+
+#promtion__content {
+  vertical-align: middle;
+}
+
+#promtion__remark {
+  vertical-align: middle;
+  font-size: 11pt;
+  @media screen and (max-width: $breakpoint-tablet) {
+    font-size: 10pt;  
+  }
+  @media screen and (max-width: $breakpoint-mobile) {
+    font-size: 8pt;
+  }
+}
+
+#emphasize {
+  font-size: 32pt;
+  font-weight: bold;
+  @media screen and (max-width: $breakpoint-tablet) {
+    font-size: 22pt;  
+  }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    font-size: 18pt;   
+  }
+
 }
 
 .course {
@@ -15,6 +72,8 @@
 
   #{&}__container {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 26px;
     justify-content: space-between;
     overflow-x: scroll;
     position: relative;
@@ -48,7 +107,7 @@
 
   #{&}__item {
     position: relative;
-    min-width: 200px;
+    min-width: 276px;
     height: auto;
 
     padding: 10px;
@@ -116,15 +175,25 @@ h4 {
 .course-general {
 
   .course__des {
-    min-height: 100px;
+    min-height: 75px;
     border-bottom: 1px solid;
+
+    @media screen and (max-width: 629px) {
+      min-height: 60px;
+    }
+
 }
 }
 
 .course-youth {
   .course__des {
-    min-height: 120px;
+    min-height: 100px;
     border-bottom: 1px solid;
+
+    @media screen and (max-width: 629px) {
+      min-height: 60px;
+    }
+
   }
   
   .course__price {
@@ -132,9 +201,18 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 939px) {
+      display: flex;
+      height: auto;
+      text-align: center;
+      vertical-align: middle;
+    }
+
   }
 
   #course__grade__price {
+    height: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -155,6 +233,7 @@ h4 {
 }
 }
 
+/*
 .course-anime {
 
   div {
@@ -194,7 +273,7 @@ h4 {
     }
   }
 
-}
+} */
 
 .course__policy {
   display: flex;

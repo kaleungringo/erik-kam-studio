@@ -4,7 +4,19 @@ import './courses.css';
 
 const Courses = () => {
     return (
-        <div className='container-nopadding container__content-regular'>
+        <>
+        <div className='promotion'>
+            <div id='promtion__content'>
+            一次性繳費三個月
+            </div>
+            <div id='emphasize'>八五折</div>
+        <div id='promtion__remark'>
+        僅限舊生
+        所有課程皆可享受此優惠
+        </div>
+</div>
+
+        <div className='container-nopadding container__content-regular' id='container-course'>
             <Helmet>
                 <title>意畫間 | 課程簡介</title>
                 <meta
@@ -35,7 +47,21 @@ const Courses = () => {
                         </p>
 
                         <p className='course__price'>
-$470/4堂
+$520/4堂
+1小時/堂
+                        </p>
+                </div>
+                <div className='course__item vibrant-4'>
+                        <h4 className='course__name'>
+兒童趣味黏土班
+                        </h4>
+                        <p className='course__des'>
+
+教授搓揉、推壓等塑形手法，以及運用顏料調色，固定造型等基本輕黏土技巧
+                        </p>
+
+                        <p className='course__price'>
+$560/4堂
 1小時/堂
                         </p>
                 </div>
@@ -49,7 +75,7 @@ $470/4堂
                         </p>
 
                         <p className='course__price'>
-$540/4堂
+$580/4堂
 1.5小時/堂
                         </p>
                 </div>
@@ -64,11 +90,11 @@ $540/4堂
                         </p>
 
                         <p className='course__price'>
-$600/4堂
+$640/4堂
 1.5小時/堂
                         </p>
                 </div>
-                <div className='course__item vibrant-4'>
+                <div className='course__item vibrant-1'>
                         <h4 className='course__name'>
 兒童卡通漫畫班
                         </h4>
@@ -80,7 +106,7 @@ $600/4堂
                         </p>
 
                         <p className='course__price'>
-$540/4堂
+$580/4堂
 1.5小時/堂
                         </p>
                 </div>
@@ -100,7 +126,7 @@ $540/4堂
             </div>
             
             <div className='course__container'>
-                <div className='course__item vibrant-3'> 
+                <div className='course__item vibrant-5'> 
                         <h4 className='course__name'>
                         青少年綜合繪畫班
                         </h4>
@@ -112,11 +138,11 @@ $540/4堂
                         </p>
 
                         <p className='course__price'>
-                        ＄600/4堂
+                        ＄640/4堂
 1.5小時/堂
                         </p>
                 </div>
-                <div className='course__item vibrant-1'>
+                <div className='course__item vibrant-3'>
                         <h4 className='course__name'>
                         全國美術級考試
                         </h4>
@@ -136,7 +162,7 @@ $540/4堂
 
                         </p>
                 </div>
-                <div className='course__item vibrant-5'>
+                <div className='course__item vibrant-4'>
                         <h4 className='course__name'>
                         中學文憑試
                         </h4>
@@ -147,7 +173,7 @@ $540/4堂
                         </p>
 
                         <p className='course__price'>
-$740/4堂
+$780/4堂
 2小時/堂
                         </p>
                 </div>
@@ -165,7 +191,7 @@ $740/4堂
                 <h2>成人課程</h2>
             </div>
             <div className='course__container'>
-                <div className='course__item vibrant-4'>
+                <div className='course__item vibrant-2'>
                     <h4 className='course__name'>
 成人藝術繪畫課程
 </h4>
@@ -177,11 +203,11 @@ $740/4堂
                     </p>
 
                     <p className='course__price'>
-$740/4堂
+$780/4堂
 2小時/堂
                     </p>
                 </div>
-                <div className='course__item vibrant-2'>
+                <div className='course__item vibrant-1'>
                     <h4 className='course__name'>
 短期禮物班
                     </h4>
@@ -192,14 +218,14 @@ $740/4堂
                     </p>
 
                     <p className='course__price'>
-$740/4堂
+$780/4堂
 2小時/堂
                     </p>
                 
 
 
                 </div>
-                <div className='course__item vibrant-1'>
+                <div className='course__item vibrant-5'>
                     <h4 className='course__name'>
 專業油畫/塑膠彩班
                     </h4>
@@ -210,7 +236,7 @@ $740/4堂
                     </p>
 
                     <p className='course__price'>
-$740/4堂
+$780/4堂
 2小時/堂
                     </p>
 
@@ -241,6 +267,7 @@ $740/4堂
 </section>
 
         </div>
+    </>
     )
 }
 
