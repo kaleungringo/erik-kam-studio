@@ -137,7 +137,7 @@ $580/4堂
 
                         </p>
 
-                        <p className='course__price'>
+                        <p className='course__price' id='course__price-adultGeneral'>
                         ＄640/4堂
 1.5小時/堂
                         </p>

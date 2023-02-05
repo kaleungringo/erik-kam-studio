@@ -344,6 +344,16 @@
   }
 }
 
+.course-youth #course__price-adultGeneral {
+  height: 80px;
+}
+
+@media screen and (max-width: 629px) {
+  .course-youth #course__price-adultGeneral {
+    height: auto;
+  }
+}
+
 /*
 .course-anime {
 
