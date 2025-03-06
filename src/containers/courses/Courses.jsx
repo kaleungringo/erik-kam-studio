@@ -47,7 +47,7 @@ const Courses = () => {
                         </p>
 
                         <p className='course__price'>
-$520/4堂
+$580/4堂
 1小時/堂
                         </p>
                 </div>
@@ -61,7 +61,7 @@ $520/4堂
                         </p>
 
                         <p className='course__price'>
-$560/4堂
+$620/4堂
 1小時/堂
                         </p>
                 </div>
@@ -75,7 +75,7 @@ $560/4堂
                         </p>
 
                         <p className='course__price'>
-$580/4堂
+$640/4堂
 1.5小時/堂
                         </p>
                 </div>
@@ -106,7 +106,7 @@ $640/4堂
                         </p>
 
                         <p className='course__price'>
-$580/4堂
+$640/4堂
 1.5小時/堂
                         </p>
                 </div>
@@ -115,7 +115,7 @@ $580/4堂
                 <div className='course__dotsnav'><p>....</p></div>
 
                 <div className='course__remarks'>
-            <h4 id='' className='course__single'>兒童試堂收費</h4>$150/堂 1小時
+            <h4 id='' className='course__single'>兒童試堂收費</h4>$210/堂 1小時
             </div>
 
             </section>
@@ -154,10 +154,10 @@ $580/4堂
                         <p className='course__price'>
 
                         <ul id="course__grade__price">
-                        <li>1-3級</li><li>1.5小時/堂</li><li>＄600</li>
-                        <li>7-8級</li><li>2小時/堂</li><li>＄660</li>
-                        <li>4-6級</li><li>1.5小時/堂</li><li>＄740</li>
-                        <li>9-10級</li><li>2小時/堂</li><li>＄820</li>
+                        <li>1-3級</li><li>1.5小時/堂</li><li>＄660</li>
+                        <li>7-8級</li><li>2小時/堂</li><li>＄720</li>
+                        <li>4-6級</li><li>1.5小時/堂</li><li>＄800</li>
+                        <li>9-10級</li><li>2小時/堂</li><li>＄880</li>
                         </ul>
 
                         </p>
@@ -173,7 +173,7 @@ $580/4堂
                         </p>
 
                         <p className='course__price'>
-$780/4堂
+$840/4堂
 2小時/堂
                         </p>
                 </div>
@@ -182,7 +182,7 @@ $780/4堂
             <div className='course__dotsnav'>...</div>
 
             <div className='course__remarks'>
-            <h4 id='' className='course__single'>青少年試堂收費</h4>$200/堂 1.5小時
+            <h4 id='' className='course__single'>青少年試堂收費</h4>$260/堂 1.5小時
             </div>
             </section>
 
@@ -203,7 +203,7 @@ $780/4堂
                     </p>
 
                     <p className='course__price'>
-$780/4堂
+$840/4堂
 2小時/堂
                     </p>
                 </div>
@@ -218,7 +218,7 @@ $780/4堂
                     </p>
 
                     <p className='course__price'>
-$780/4堂
+$840/4堂
 2小時/堂
                     </p>
                 
@@ -236,7 +236,7 @@ $780/4堂
                     </p>
 
                     <p className='course__price'>
-$780/4堂
+$840/4堂
 2小時/堂
                     </p>
 
@@ -244,7 +244,7 @@ $780/4堂
             </div>
 
             <div className='course__remarks'>
-            <h4 id='' className='course__single'>短期單堂畫班</h4>$250/堂 2小時
+            <h4 id='' className='course__single'>短期單堂畫班</h4>$310/堂 2小時
             </div>
 
             </section>
